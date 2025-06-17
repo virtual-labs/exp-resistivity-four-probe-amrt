@@ -1,6 +1,3 @@
-## Procedure
-
-
 ### Apparatus
 
 The experimental set up consists of probe arrangement, sample , oven 0-200Ãƒâ€šÃ‚Â°C, constant current generator , oven power supply and digital panel meter(measuring voltage and current).
@@ -54,7 +51,7 @@ If X10 is selected: slider ranges from 27 °C to 200 °C.</p>
 
 <p><strong>Voltmeter Combo Box</strong> – Options: 1 mV, 10 mV, 100 mV, 1 V, 10 V. Used to select output voltage range.</p>
 
-<h4>Procedure</h4>
+## Procedure
 <ol>
   <li>Select the semiconductor material from the combo box.</li>
   <li>Select the source current using the slider based on the chosen range.</li>
@@ -68,3 +65,47 @@ If X10 is selected: slider ranges from 27 °C to 200 °C.</p>
   <li>Calculate the resistivity of the semiconductor (in eV) using equations (2) and (3).</li>
   <li>A graph is plotted with temperature on the x-axis and semiconductor resistivity on the y-axis.</li>
 </ol>
+
+<h3>Procedure for Real Lab</h3>
+
+<p>
+In the real lab, four probes are placed on the sample as shown in Fig:1. Connections are made as shown in the simulator. A constant current is passed through the outer probes by connecting them to the constant current source of the setup. The current is set to <strong>8 mA</strong>.
+</p>
+
+<p>
+The voltage developed across the middle two probes is measured using a digital milli-voltmeter. The trial is repeated by placing the four-probe arrangement inside the oven. The oven is connected to the heater supply of the setup. For different temperatures, up to <strong>1500 °C</strong>, the voltage developed is noted and tabulated.
+</p>
+
+<p>
+The distance between the probes (<strong>S</strong>) and the thickness of the crystal (<strong>W</strong>) are measured. The values of <strong>W/S</strong> are calculated, and the value of the function <strong>f(W/S)</strong> is taken from a standard reference table.
+</p>
+
+<p>
+Using equations (2) and (3), calculate <strong>&#961;</strong> (resistivity) for various temperatures.
+</p>
+
+### Observations and Calculations
+
+
+<div style="display: block; margin-left: auto; margin-right: auto; text-align: center; width: fit-content;"><img src="./images/figure3.jpg" alt="Figure 3" style="max-width: 600px; height: auto;"><p style="text-align: center; font-size: smaller; font-style: italic;"></p></div>
+
+
+<p>Resistivity can be calculated by using the equation given below.</p>
+
+<p>Here we take:</p>
+
+Distance between the probes, $S = 0.2\,\text{cm}$ <br>
+Thickness of the sample, $w = 0.05\,\text{cm}$ <br>
+From standard table: f(w/S) = 5.89 <br>
+
+
+$\rho = \frac{\rho_0}{f\left(\frac{w}{s}\right)}$ = ...........Ohm cm
+
+
+
+$\rho_0 = \frac{V}{I} \times 2\pi S$ = ..................... Ohm cm
+
+## Result
+
+ The resistivity of the given semiconductor by Four probe Method =  ...................................Ohm cm
+
