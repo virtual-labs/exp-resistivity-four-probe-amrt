@@ -2,37 +2,37 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "As temperature increases, the resistivity of a semiconductor",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Decreases",
+        "b": "Increases",
+        "c": "Remains constant",
+        "d": "Decreases exponentially"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect – it doesn't simply decrease linearly.",
+        "b": "Incorrect – this is true for metals, not semiconductors.",
+        "c": "Incorrect – resistivity is temperature dependent.",
+        "d": "Correct – resistivity decreases exponentially with temperature increase due to more free charge carriers."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Doping of a semiconductor means",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "adding impurities to increase the conductivity of material",
+        "b": "adding impurities to decrease the conductivity of material",
+        "c": "Removing of impurities from the material surface",
+        "d": "None of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct – doping increases free charge carriers, improving conductivity.",
+        "b": "Incorrect – doping enhances conductivity, not reduces it.",
+        "c": "Incorrect – this describes cleaning, not doping.",
+        "d": "Incorrect – option (a) is the accurate definition."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]

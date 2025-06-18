@@ -1,1 +1,1 @@
-## Experiment name
+## 	Resistivity by Four Probe Method
