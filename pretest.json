@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "As temperature increases, the resistivity of a semiconductor",
+      "answers": {
+        "a": "Decreases",
+        "b": "Increases",
+        "c": "Remains constant",
+        "d": "Decreases exponentially"
+      },
+      "explanations": {
+        "a": "Incorrect – it doesn't simply decrease linearly.",
+        "b": "Incorrect – this is true for metals, not semiconductors.",
+        "c": "Incorrect – resistivity is temperature dependent.",
+        "d": "Correct – resistivity decreases exponentially with temperature increase due to more free charge carriers."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Doping of a semiconductor means",
+      "answers": {
+        "a": "adding impurities to increase the conductivity of material",
+        "b": "adding impurities to decrease the conductivity of material",
+        "c": "Removing of impurities from the material surface",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Correct – doping increases free charge carriers, improving conductivity.",
+        "b": "Incorrect – doping enhances conductivity, not reduces it.",
+        "c": "Incorrect – this describes cleaning, not doping.",
+        "d": "Incorrect – option (a) is the accurate definition."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Single-element semiconductors are characterized by atoms with how many valence electrons?",
+      "answers": {
+        "a": "3",
+        "b": "4",
+        "c": "2",
+        "d": "1"
+      },
+      "explanations": {
+        "a": "Incorrect – 3 valence electrons are typical for trivalent elements like boron.",
+        "b": "Correct – elements like silicon and germanium have 4 valence electrons.",
+        "c": "Incorrect – 2 valence electrons are not sufficient for forming the required bonds.",
+        "d": "Incorrect – 1 valence electron is typical of alkali metals, not semiconductors."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a semiconductor, current conduction is due to",
+      "answers": {
+        "a": "holes",
+        "b": "free electrons",
+        "c": "holes and free electrons",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Partially correct – but electrons also contribute.",
+        "b": "Partially correct – but holes also play a role.",
+        "c": "Correct – both electrons and holes contribute to conduction.",
+        "d": "Incorrect – conduction does occur via carriers."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The resistivity of pure germanium under standard conditions is about",
+      "answers": {
+        "a": "6x10^4 Ω·cm",
+        "b": "60 Ω·cm",
+        "c": "3x10^6 Ω·cm",
+        "d": "6x10^-4 Ω·cm"
+      },
+      "explanations": {
+        "a": "Incorrect – too high for germanium.",
+        "b": "Incorrect – still high for intrinsic germanium.",
+        "c": "Incorrect – very high compared to known intrinsic resistivity.",
+        "d": "Correct – pure germanium has a low resistivity of around 6×10^-4 Ω·cm."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
