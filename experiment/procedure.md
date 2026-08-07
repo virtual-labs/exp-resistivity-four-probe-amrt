@@ -1,11 +1,10 @@
 ### Apparatus
 
-The experimental set up consists of probe arrangement, sample , oven 0-200Ãƒâ€šÃ‚Â°C, constant current generator , oven power supply and digital panel meter(measuring voltage and current).
+The experimental setup consists of a four-probe arrangement, a semiconductor sample, an oven (0–200°C), a constant current source, an oven power supply, and digital panel meters to measure voltage and current.
 
-Four probe apparatus is one of the standard and most widely used apparatus for the measurement of resistivity of semiconductors.
-This method  is employed when the sample is in the form of a thin wafer, such as a thin semiconductor material deposited on a substrate. The sample is millimeter in size and having a thickness w. It consists of four probe arranged linearly in a straight line at equal distance S from each other. A constant current is passed through the two probes and the potential drop V across the middle two probes is measured. An oven is provided with a heater to heat the sample so that behavior of the sample is studied with increase in temperature.
+The four-probe method is a widely used technique for measuring the resistivity of semiconductor materials. In this method, four equally spaced probes are placed in a straight line on the surface of the sample. A constant current is passed through the two outer probes, while the voltage drop across the two inner probes is measured. Using the measured current and voltage, the resistivity of the sample is determined.
 
-
+The sample is placed inside an oven so that its temperature can be varied. By measuring the resistivity at different temperatures, the effect of temperature on the electrical properties of the semiconductor can be studied.
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; text-align: center;">
 <div style="max-width: 400px;">
@@ -20,69 +19,58 @@ This method  is employed when the sample is in the form of a thin wafer, such as
 
 The figure shows the arrangements of four probes that measure voltage (V) and supply current (A) to the surface of the crystal.
 
-<h3>Procedure for Simulation</h3>
+### Procedure for Simulation
 
-<h4>Combo Box and Sliders</h4>
+1. Select the semiconductor material from the **Select Material** drop-down list.
 
-<p><strong>Select Material</strong> – Used to select the semiconductor material for simulation.</p>
+2. Select the required **Current Range**.
 
-<p><strong>Range of Current</strong> – Choose the current range for the current source.</p>
+3. Adjust the **Current Slider** to set the desired current.
 
-<p><strong>Current Slider</strong> – Ranges from 1 mA to 200 mA. <br>
-<em>Note:</em> The slider has 100 fixed divisions. If 20 mA is selected in the combo box, the slider ranges from 0 mA to 20 mA with 0.2 mA intervals. If 200 mA is selected, it ranges from 0 mA to 200 mA with 2 mA intervals.</p>
+4. Select the **Oven Range**.
 
-<p><strong>Range of Oven</strong> – Used to fix the temperature range via a combo box.</p>
+5. Set the required temperature using the **Temperature Slider**.
 
-<p><strong>Oven</strong> – Varies the temperature up to 2000 °C.<br>
-<ul>
-  <li><strong>Set Button</strong> – Fixes the temperature in the oven.</li>
-  <li><strong>Run Button</strong> – Starts heating after the temperature is set.</li>
-  <li><strong>Wait Button</strong> – Stops heating the oven at a specific temperature.</li>
-  <li><strong>Measure Button</strong> – Displays the current oven temperature.</li>
-</ul>
-</p>
+6. Click **Set** to fix the selected temperature.
 
-<p><strong>Select Range Combo Box</strong> – Options: X1 and X10.</p>
+7. Click **Run** to heat the sample from room temperature to the selected temperature.
 
-<p><strong>Temperature Slider</strong> – Ranges from 270 °C to 2000 °C. <br>
-Active only after clicking the Set button and becomes inactive after clicking Run. <br>
-If X1 is selected: slider ranges from 270 °C to 990 °C. <br>
-If X10 is selected: slider ranges from 27 °C to 200 °C.</p>
+8. Click **Wait** to stop heating at the desired temperature.
 
-<p><strong>Voltmeter Combo Box</strong> – Options: 1 mV, 10 mV, 100 mV, 1 V, 10 V. Used to select output voltage range.</p>
+9. Click **Measure** to display the current temperature of the sample.
 
-## Procedure
-<ol>
-  <li>Select the semiconductor material from the combo box.</li>
-  <li>Select the source current using the slider based on the chosen range.</li>
-  <li>Select the oven range using the combo box.</li>
-  <li>Set the temperature using the temperature slider.</li>
-  <li>Click the Run button to begin heating from the default 25 °C to the set temperature. Use the Wait button to stop heating.</li>
-  <li>Click the Set button to display the temperature set in the oven.</li>
-  <li>Click the Measure button to show the current temperature inside the oven.</li>
-  <li>Select the voltmeter range from the combo box.</li>
-  <li>Measure the voltage using the voltmeter.</li>
-  <li>Calculate the resistivity of the semiconductor (in eV) using equations (2) and (3).</li>
-  <li>A graph is plotted with temperature on the x-axis and semiconductor resistivity on the y-axis.</li>
-</ol>
+10. Select the appropriate **Voltmeter Range**.
 
-<h3>Procedure for Real Lab</h3>
+11. Note the voltage (V) displayed on the voltmeter.
 
-<p>
-In the real lab, four probes are placed on the sample as shown in Fig:1. Connections are made as shown in the simulator. A constant current is passed through the outer probes by connecting them to the constant current source of the setup. The current is set to <strong>8 mA</strong>.
-</p>
+12. Repeat the experiment for different temperatures.
 
-<p>
-The voltage developed across the middle two probes is measured using a digital milli-voltmeter. The trial is repeated by placing the four-probe arrangement inside the oven. The oven is connected to the heater supply of the setup. For different temperatures, up to <strong>1500 °C</strong>, the voltage developed is noted and tabulated.
-</p>
+13. Calculate the resistivity of the semiconductor using the equations given below.
 
-<p>
-The distance between the probes (<strong>S</strong>) and the thickness of the crystal (<strong>W</strong>) are measured. The values of <strong>W/S</strong> are calculated, and the value of the function <strong>f(W/S)</strong> is taken from a standard reference table.
-</p>
+14. Observe the graph of **Temperature** versus **Resistivity**.
 
-<p>
-Using equations (2) and (3), calculate <strong>&#961;</strong> (resistivity) for various temperatures.
-</p>
+---
+
+
+## Procedure for Real Laboratory
+
+1. Place the four probes on the semiconductor sample as shown in the figure.
+
+2. Connect the outer two probes to the constant current source.
+
+3. Set the source current to **8 mA**.
+
+4. Measure the voltage across the inner two probes using the digital voltmeter.
+
+5. Place the sample inside the oven.
+
+6. Increase the temperature gradually and record the voltage at different temperatures.
+
+7. Measure the distance between adjacent probes (**S**) and the thickness of the sample (**w**).
+
+8. Calculate the value of **w/S** and obtain the correction factor **f(w/S)** from the standard table.
+
+9. Calculate the resistivity of the semiconductor for each temperature.
 
 ### Observations and Calculations
 
@@ -90,13 +78,38 @@ Using equations (2) and (3), calculate <strong>&#961;</strong> (resistivity) for
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center; width: fit-content;"><img src="./images/figure3.jpg" alt="Figure 3" style="max-width: 600px; height: auto;"><p style="text-align: center; font-size: smaller; font-style: italic;"></p></div>
 
 
-<p>Resistivity can be calculated by using the equation given below.</p>
+**Given:**
 
-<p>Here we take:</p>
+- Distance between adjacent probes:
 
-Distance between the probes, $S = 0.2\,\text{cm}$ <br>
-Thickness of the sample, $w = 0.05\,\text{cm}$ <br>
-From standard table: f(w/S) = 5.89 <br>
+  $$S = 0.2\ \text{cm}$$
+
+- Thickness of the sample:
+
+  $$w = 0.05\ \text{cm}$$
+
+- Correction factor:
+
+  $$f\left(\frac{w}{S}\right)=5.89$$
+
+### Step 1: Calculate the Uncorrected Resistivity
+
+$$
+\rho_0=\frac{V}{I}\times2\pi S
+$$
+
+where
+
+- $$V$$ = Measured voltage
+- $$I$$ = Current through the sample
+- $$S$$ = Distance between adjacent probes
+
+### Step 2: Calculate the Resistivity
+
+$$
+\rho=\frac{\rho_0}{f\left(\frac{w}{S}\right)}
+$$
+
 
 
 $\rho = \frac{\rho_0}{f\left(\frac{w}{s}\right)}$ = ...........Ohm cm
@@ -107,5 +120,7 @@ $\rho_0 = \frac{V}{I} \times 2\pi S$ = ..................... Ohm cm
 
 ## Result
 
- The resistivity of the given semiconductor by Four probe Method =  ...................................Ohm cm
+The resistivity of the given semiconductor sample using the **Four Probe Method** is $\rho$ = ......................... Ohm cm
+
+
 
