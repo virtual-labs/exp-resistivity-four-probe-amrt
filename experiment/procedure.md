@@ -111,13 +111,6 @@ $$
 $$
 
 
-
-$\rho = \frac{\rho_0}{f\left(\frac{w}{s}\right)}$ = ...........Ohm cm
-
-
-
-$\rho_0 = \frac{V}{I} \times 2\pi S$ = ..................... Ohm cm
-
 ## Result
 
 The resistivity of the given semiconductor sample using the **Four Probe Method** is $\rho$ = ......................... Ohm cm
